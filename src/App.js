@@ -1,4 +1,5 @@
 import './App.css';
+import { ClickExample } from './example/click_sample';
 
 
 const element = <Welcome name="Sara" />;
@@ -24,6 +25,7 @@ function App() {
         >
           Learn React
         </a>
+        <ClickExample />
       </header>
     </div>
   );
