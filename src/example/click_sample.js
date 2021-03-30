@@ -5,9 +5,12 @@ export class ClickExample extends React.Component {
         super(props);
     }
 
+    buttonClick = () => { console.log('this is:', this); }
+
     render() {
         return (
-            <h1>我是按钮</h1>
+            <button onClick={this.buttonClick}
+            >CLick Button</button>
         );
     }
 }
